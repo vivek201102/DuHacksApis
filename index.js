@@ -25,6 +25,8 @@ app.use('/api/v2/theme', theme);
 app.use('/', (req, res)=>{ res.send('Welcome to DuHacks!!!')});
 app.use('/home', (req, res)=>{ res.send('Welcome to DuHacks Homes!!!')});
 
-server.listen(port, () => {
+app.listen(port, () => {
     console.log(`Server is runnig on port: ${port}`);
 });
+
+module.exports = app;
