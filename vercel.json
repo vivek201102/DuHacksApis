@@ -12,8 +12,12 @@
             "dest":"/"
         },
         {
-            "src": "/api/v2/schedule",
-            "dest":"/api/v2/schedule"
+            "src": "/api/v2/schedule/",
+            "dest":"/api/v2/schedule/"
+        },
+        {
+            "src": "/home",
+            "dest":"/home"
         }
     ]
 }
