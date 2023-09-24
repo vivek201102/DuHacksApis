@@ -23,6 +23,7 @@ app.use('/api/v2/prizes', prizes);
 app.use('/api/v2/sponsors', sponsors);
 app.use('/api/v2/theme', theme);
 app.use('/', (req, res)=>{ res.send('Welcome to DuHacks!!!')});
+app.use('/home', (req, res)=>{ res.send('Welcome to DuHacks Homes!!!')});
 
 server.listen(port, () => {
     console.log(`Server is runnig on port: ${port}`);
